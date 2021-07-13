@@ -1,6 +1,27 @@
 html {
     box-sizing: border-box;
-    background-color: blanchedalmond;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
 }
 
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+
+
+}
+
+header nav img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    display: inline-flex;
+    text-decoration: underline;
+    float: right;
+}
 
