@@ -7,21 +7,30 @@ html {
     opacity: 0.9;
 }
 
-header {
+body, header {
+    margin:0;
+}
+main {
+    margin-top: 72px;
+}
+nav {
     height: 69px;
+    width: 100%;
     border-bottom: 1px solid seashell;
-
-
+    position: fixed;
+    background-color: black;
+    top: 0;
 }
 
-header nav img {
+
+nav img {
     height: 50px;
     margin-right: 10px;
+    float: left;
 }
-
-header nav ul {
-    display: inline-flex;
+nav ul {
     text-decoration: underline;
     float: right;
+    display: block;
 }
 
