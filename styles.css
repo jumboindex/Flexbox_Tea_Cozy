@@ -5,11 +5,15 @@ html {
     font-size: 22px;
     color: seashell;
     opacity: 0.9;
+    text-align: center;
 }
 
 body, header {
     margin:0;
 }
+
+/*Nav Bar Styling*/
+
 main {
     margin-top: 72px;
 }
@@ -20,17 +24,42 @@ nav {
     position: fixed;
     background-color: black;
     top: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
 }
 
 
 nav img {
     height: 50px;
-    margin-right: 10px;
-    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+   
 }
+
 nav ul {
     text-decoration: underline;
-    float: right;
     display: block;
+}
+
+/* Mission Container Styling*/
+
+div.mission.container {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+div.mission.container h2, h4 {
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    
 }
 
