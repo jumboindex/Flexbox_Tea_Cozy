@@ -29,6 +29,7 @@ nav {
     flex-wrap: nowrap;
 }
 
+
 nav img {
     height: 50px;
     margin-left: 10px;
@@ -43,23 +44,31 @@ nav ul {
 
 /* Mission Container Styling*/
 
+.img_container {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .mission.container {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-    width: auto;
     margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;   
-}
+    flex-flow: column wrap;
+    flex: 1 1 1200px ;
 
+   
+}
 .mission.container h2, h4 {
     background-color: black;
     margin: 0;
-    width: 100%;    
+    width: 100%;
+    
 }
 
 /* Tea of the Month Styling*/
@@ -71,7 +80,7 @@ nav ul {
     flex-flow: row wrap;
     margin: 20px;
     margin-left: 10px;
-    flex: 1 1 auto;
+    flex: 1 1 1000px;
 }
 
 .month.container h2, h4 {
@@ -84,6 +93,8 @@ nav ul {
     margin-top: 40px;
     display: flex;
     flex-flow: column nowrap;
+    
+
 }
 
 .tea.type img {
@@ -92,7 +103,7 @@ nav ul {
 
 /* locations Styling*/
 
-.locations.container {
+ .locations.container {
      height: 500px;
      width: 100%;
      background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
@@ -105,19 +116,21 @@ nav ul {
      align-items: center;
      flex-wrap: wrap;
      overflow-y: scroll;
+     
  }
 
-.locations.container h2 { 
+ .locations.container h2 { 
     margin-top: 100px;
     margin-bottom: 15px;
     flex-basis: 100%;
+    
  }
 
-.location {
+ .location {
      width: 300px;
      height: 250px;
-     margin-right: 40px;
-     margin-left: 40px;
+     margin-right: 20px;
+     margin-left: 20px;
     margin-bottom: 15px;
      background-color: black;
      opacity: 1;
@@ -127,10 +140,12 @@ nav ul {
 
  .contact.container {
      height: 200px;
-     display: block;    
+     display: block;
+     
  }
 
  .contact.container h2, h5 {
+
     margin-top: 15px; 
     margin-bottom: 15px;
     padding: 0;
